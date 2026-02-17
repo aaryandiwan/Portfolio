@@ -14,6 +14,18 @@ export const HeroSection = () => {
         <Button asChild>
           <a href="#projects">View My Work</a>
         </Button>
+        <Button
+                                size="lg"
+                                onClick={() => {
+                                    const link = document.createElement("a");
+                                    link.href = "/resumeeeeee.pdf";
+                                    link.download = "resumeeeeee.pdf";
+                                    link.click();
+                                }}
+                                className="text-lg text-center"
+                            >
+                                Resume
+                            </Button>
       </div>
     </section>
   );
