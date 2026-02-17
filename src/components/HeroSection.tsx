@@ -10,8 +10,7 @@ export const HeroSection = () => {
 
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-                    Computer Science & Engineering Undergraduate at Galgotias University
-                    with a passion for Data Analytics and AI/ML.
+                    Data Analytics & AI/ML Enthusiast
                 </p>
                 <div className="flex gap-6 justify-center items-center mt-8">
                     <button className="px-8 py-3 bg-white text-gray-800 font-medium rounded-2xl shadow-lg hover:scale-105 transition duration-300">
