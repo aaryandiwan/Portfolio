@@ -3,10 +3,10 @@ import InfiniteMenu from "./ui/infinite-menu";
 
 const skillItems = [
   {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    title: "HTML",
-    description: "Semantic structure"
+    image: "https://img.icons8.com/color/96/power-bi.png",
+    link: "https://powerbi.microsoft.com/",
+    title: "Power BI",
+    description: "Business intelligence & dashboards"
   },
   {
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
