@@ -5,8 +5,9 @@ export const HeroSection = () => {
         <section id="home" className="min-h-screen flex items-center justify-center text-center px-4">
             <div
                 <h1 className="text-5xl md:text-6xl font-bold mb-6 text-primary">
-                  Aaryan Diwan
-                </h1>
+  Aaryan Diwan
+</h1>
+
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
                     Computer Science & Engineering Undergraduate at Galgotias University
                     with a passion for Data Analytics and AI/ML.
