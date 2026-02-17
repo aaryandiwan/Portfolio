@@ -11,21 +11,16 @@ export const HeroSection = () => {
                     Computer Science & Engineering Undergraduate at Galgotias University
                     with a passion for Data Analytics and AI/ML.
                 </p>
-                <Button asChild>
-                    <a href="#projects">View My Work</a>
-                </Button>
-                <Button
-                    size="lg"
-                    onClick={() => {
-                        const link = document.createElement("a");
-                        link.href = "/resumeeeeee.pdf";
-                        link.download = "resumeeeeee.pdf";
-                        link.click();
-                    }}
-                    className="text-lg text-center"
-                >
-                    Resume
-                </Button>
+                <div className="flex gap-6 justify-center items-center mt-8">
+                    <button className="px-8 py-3 bg-white text-gray-800 font-medium rounded-2xl shadow-lg hover:scale-105 transition duration-300">
+                        View My Work
+                    </button>
+
+                    <button className="px-8 py-3 bg-white text-gray-800 font-medium rounded-2xl shadow-lg hover:scale-105 transition duration-300">
+                        Resume
+                    </button>
+                </div>
+
             </div>
         </section>
     );
