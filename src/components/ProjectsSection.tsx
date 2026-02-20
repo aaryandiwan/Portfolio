@@ -32,9 +32,9 @@ const projects = [
     title: "UPI Pulse",
     description:
       "Analyzing UPI transaction data to uncover spending patterns, detect fraudulent activity, using Python and interactive charts.",
-    tags: ["Python", "Pandas", "Matplotlib", "Seaborn],
+    tags: ["Python", "Pandas", "Matplotlib", "Seaborn"],
      image: "/projects/UPISALES.jpg",
-     githubUrl: "https://github.com/aaryandiwan/UPI-Transaction-Analysis",
+     githubUrl: "https://github.com/aaryandiwan/UPI-Pulse",
    },
 ];
 
