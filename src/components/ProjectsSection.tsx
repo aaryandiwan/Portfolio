@@ -50,74 +50,80 @@ const projects = [
 export function ProjectsSection() {
   return (
     <section id="projects" className="py-24 relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-background/0 via-background/40 to-background/0 pointer-events-none" />
-      <div className="container mx-auto px-6 relative">
+      <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
+
           <AnimatedSection animation="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center drop-shadow-md">
-              Featured Projects
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+              Projects
             </h2>
           </AnimatedSection>
-          <AnimatedSection animation="fade-up" delay={100}>
-            <p className="text-foreground/75 text-center mb-16 max-w-2xl mx-auto drop-shadow-sm">
-              A selection of my recent work showcasing different technologies and
-              problem-solving approaches.
-            </p>
-          </AnimatedSection>
-          <div className="grid md:grid-cols-2 gap-8">
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
             {projects.map((project, index) => (
               <AnimatedSection
                 key={project.title}
                 animation="fade-up"
-                delay={150 * (index + 1)}
+                delay={index * 100}
               >
-                <GlassCard variant="default" className="group overflow-hidden h-full">
+                <GlassCard className="group overflow-hidden h-full">
+
+                  {/* IMAGE */}
                   <div className="aspect-video overflow-hidden">
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                     />
                   </div>
+
+                  {/* CONTENT */}
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold text-foreground mb-2 drop-shadow-sm">
+                    <h3 className="text-xl font-semibold mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-foreground/70 text-sm mb-4 leading-relaxed">
+
+                    <p className="text-muted-foreground text-sm mb-4">
                       {project.description}
                     </p>
+
+                    {/* TAGS */}
                     <div className="flex flex-wrap gap-2 mb-6">
                       {project.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-3 py-1.5 text-xs bg-gradient-to-br from-foreground/[0.1] to-foreground/[0.05] backdrop-blur-sm text-foreground/80 rounded-lg border border-foreground/[0.1] shadow-[0_1px_4px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.1)]"
+                          className="px-3 py-1 text-xs rounded-lg bg-white/10"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
-                    <div className="flex gap-3">
-                      {project.liveUrl && (
-                        
-                          href={project.liveUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm text-foreground/70 hover:text-foreground transition-colors"
-                        >
-                          Live Demo 🚀
+
+                    {/* Live Button demo*/}
+                    {project.liveUrl && (
+                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      Live Demo 🚀
                         </a>
-                      )}
-                      <Button variant="ghost" size="sm" className="hover:bg-foreground/8" asChild>
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                          <Github className="h-4 w-4 mr-2" />
-                          Code
-                        </a>
-                      </Button>
-                    </div>
+                          )}
+                    {/* GITHUB BUTTON */}
+                    <Button variant="outline" size="sm" asChild>
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Github className="h-4 w-4 mr-2" />
+                        View Code
+                      </a>
+                    </Button>
+
                   </div>
+
                 </GlassCard>
               </AnimatedSection>
             ))}
+
           </div>
         </div>
       </div>
