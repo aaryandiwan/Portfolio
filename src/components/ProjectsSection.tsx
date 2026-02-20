@@ -50,9 +50,7 @@ const projects = [
 export function ProjectsSection() {
   return (
     <section id="projects" className="py-24 relative">
-      {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/0 via-background/40 to-background/0 pointer-events-none" />
-
       <div className="container mx-auto px-6 relative">
         <div className="max-w-6xl mx-auto">
           <AnimatedSection animation="fade-up">
@@ -60,14 +58,12 @@ export function ProjectsSection() {
               Featured Projects
             </h2>
           </AnimatedSection>
-
           <AnimatedSection animation="fade-up" delay={100}>
             <p className="text-foreground/75 text-center mb-16 max-w-2xl mx-auto drop-shadow-sm">
               A selection of my recent work showcasing different technologies and
               problem-solving approaches.
             </p>
           </AnimatedSection>
-
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <AnimatedSection
@@ -75,10 +71,7 @@ export function ProjectsSection() {
                 animation="fade-up"
                 delay={150 * (index + 1)}
               >
-                <GlassCard
-                  variant="default"
-                  className="group overflow-hidden h-full"
-                >
+                <GlassCard variant="default" className="group overflow-hidden h-full">
                   <div className="aspect-video overflow-hidden">
                     <img
                       src={project.image}
@@ -103,12 +96,17 @@ export function ProjectsSection() {
                         </span>
                       ))}
                     </div>
-
-                    {project.liveUrl && (
-  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-    Live Demo 🚀
-  </a>
-)}
+                    <div className="flex gap-3">
+                      {project.liveUrl && (
+                        
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-foreground/70 hover:text-foreground transition-colors"
+                        >
+                          Live Demo 🚀
+                        </a>
+                      )}
                       <Button variant="ghost" size="sm" className="hover:bg-foreground/8" asChild>
                         <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                           <Github className="h-4 w-4 mr-2" />
