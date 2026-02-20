@@ -37,14 +37,14 @@ const projects = [
      githubUrl: "https://github.com/aaryandiwan/UPI-Pulse",
    },
   {
-    title: "UPI Pulse",
+    title: "Paisa-Track",
     description:
-      "Analyzing UPI transaction data to uncover spending patterns, detect fraudulent activity, using Python and interactive charts.",
-    tags: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+      "Interactive UPI transaction dashboard built with React & Recharts, visualizing spending patterns, fraud detection, and payment insights in real-time.",
+    tags: ["React", "Vite", "Fraud-Detection", " Data-Visualization"],
      image: "/projects/transactiondash.jpg",
      githubUrl: "https://github.com/aaryandiwan/Paisa-Track",
      liveUrl: "https://upi-dashboard-three.vercel.app/",
-   
+  },
 ];
 
 export function ProjectsSection() {
