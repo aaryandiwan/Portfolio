@@ -100,14 +100,11 @@ export function ProjectsSection() {
                       ))}
                     </div>
                     {/* Live Demo */}
-                    {project.liveUrl && (
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                       <button className="...same classes as View Code button...">
-                        <ExternalLink size={18} />  {/* or whatever icon you use */}
-                             Live Demo
-                              </button>
-                                 </a>
-                                   )}
+                   {project.liveUrl && (
+  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+    Live Demo 🚀
+  </a>
+)}
                      
                     
                     
