@@ -24,7 +24,7 @@ const contactInfo = [
     icon: MapPin,
     label: "Location",
     value: "Noida, India",
-    href: "https://maps.google.com/?q=Delhi,India",
+    href: "https://maps.google.com/?q=Noida,+Uttar+Pradesh,+India",
   },
 ];
 
