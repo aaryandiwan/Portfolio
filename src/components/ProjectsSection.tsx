@@ -104,7 +104,26 @@ export function ProjectsSection() {
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                       Live Demo 🚀
                       </a>
-                       )}
+                       )
+                       <Live Demo className="h-4 w-4 mr-2" />
+                        View Code
+                      </a>
+                    </Button>
+
+                  </div>
+
+                </GlassCard>
+              </AnimatedSection>
+            ))}
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+                     }
+                    
                     
                     {/* GITHUB BUTTON */}
                     <Button variant="outline" size="sm" asChild>
