@@ -36,6 +36,15 @@ const projects = [
      image: "/projects/UPISALES.jpg",
      githubUrl: "https://github.com/aaryandiwan/UPI-Pulse",
    },
+  {
+    title: "UPI Pulse",
+    description:
+      "Analyzing UPI transaction data to uncover spending patterns, detect fraudulent activity, using Python and interactive charts.",
+    tags: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+     image: "/projects/transactiondash.jpg",
+     githubUrl: "https://github.com/aaryandiwan/Paisa-Track",
+     liveUrl: "https://upi-dashboard-three.vercel.app/",
+   
 ];
 
 export function ProjectsSection() {
@@ -90,7 +99,13 @@ export function ProjectsSection() {
                         </span>
                       ))}
                     </div>
-
+                    {/* Live Demo */}
+                     {project.liveUrl && (
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      Live Demo 🚀
+                      </a>
+                       )}
+                    
                     {/* GITHUB BUTTON */}
                     <Button variant="outline" size="sm" asChild>
                       <a
