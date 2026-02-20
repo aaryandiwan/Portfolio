@@ -103,13 +103,12 @@ export function ProjectsSection() {
                         </span>
                       ))}
                     </div>
-                    <div className="flex gap-3">
-                      <Button variant="glass" size="sm" asChild>
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="h-4 w-4 mr-2" />
-                          Live Demo
-                        </a>
-                      </Button>
+
+                    {project.liveUrl && (
+  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+    Live Demo 🚀
+  </a>
+)}
                       <Button variant="ghost" size="sm" className="hover:bg-foreground/8" asChild>
                         <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                           <Github className="h-4 w-4 mr-2" />
