@@ -11,8 +11,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "aaryandiwan@gmail.com",
-    href: "mailto:aaryandiwan@gmail.com",
+    value: "veeraaryan10@gmail.com",
+    href: "mailto:veeraaryan10@gmail.com",
   },
   {
     icon: Phone,
@@ -23,7 +23,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Delhi, India",
+    value: "Noida, India",
     href: "https://maps.google.com/?q=Delhi,India",
   },
 ];
