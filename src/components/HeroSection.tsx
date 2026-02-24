@@ -42,7 +42,7 @@ export function HeroSection() {
         {/* Subtitle */}
         <AnimatedSection animation="fade-up" delay={200}>
           <p className="text-lg md:text-xl text-muted-foreground mb-10">
-            Data Analytics & AI/ML Enthusiast
+            Data Analysis & AI/ML Enthusiast
           </p>
         </AnimatedSection>
 
