@@ -5,6 +5,14 @@ import { AnimatedSection } from "./ui/animated-section";
 
 const projects = [
   {
+    title: "GestureIQ",
+    description:
+      "An end-to-end Machine Learning pipeline for real-time hand gesture recognition with crowdsourced data collection.",
+    tags: ["Python, MediaPipe, scikit-learn, OpenCV"],
+    image: "/projects/GestureIQ.jpg",
+    githubUrl: "https://github.com/aaryandiwan/GestureIQ",
+  },
+  {
     title: "EpiPredict",
     description:
       "ML-powered epidemiological prediction system for disease trend forecasting.",
