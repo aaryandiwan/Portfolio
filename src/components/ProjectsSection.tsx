@@ -11,6 +11,7 @@ const projects = [
     tags: ["Python", "MediaPipe", "scikit-learn", "OpenCV"],
     image: "/projects/GestureIQ.jpg",
     githubUrl: "https://github.com/aaryandiwan/GestureIQ",
+    liveUrl: "https://aaryandiwan.github.io/GestureIQ/web/"
   },
   {
     title: "EpiPredict",
