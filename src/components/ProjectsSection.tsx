@@ -8,7 +8,7 @@ const projects = [
     title: "GestureIQ",
     description:
       "An end-to-end Machine Learning pipeline for real-time hand gesture recognition with crowdsourced data collection.",
-    tags: ["Python, MediaPipe, scikit-learn, OpenCV"],
+    tags: ["Python", "MediaPipe", "scikit-learn", "OpenCV"],
     image: "/projects/GestureIQ.jpg",
     githubUrl: "https://github.com/aaryandiwan/GestureIQ",
   },
