@@ -14,12 +14,7 @@ const contactInfo = [
     value: "veeraaryan10@gmail.com",
     href: "mailto:veeraaryan10@gmail.com",
   },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+91 7543031621",
-    href: "tel:+917543031621",
-  },
+
   {
     icon: MapPin,
     label: "Location",
