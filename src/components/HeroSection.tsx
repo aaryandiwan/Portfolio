@@ -44,12 +44,6 @@ export function HeroSection() {
           <p className="text-lg md:text-xl text-muted-foreground mb-10">
             AI & Data 
           </p>
-           <p className="text-base md:text-lg text-muted-foreground">
-      AI/ML <span className="mx-2">•</span>
-      Data <span className="mx-2">•</span>
-      APIs <span className="mx-2">•</span>
-      Automation
-    </p>
         </AnimatedSection>
 
         {/* Buttons */}
