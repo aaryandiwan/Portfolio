@@ -39,7 +39,7 @@ export function AboutSection() {
 
           <AnimatedSection animation="fade-up" delay={100}>
             <p className="text-foreground/75 text-center mb-16 max-w-2xl mx-auto">
-              I’m a Computer Science & Engineering undergraduate passionate about Data Analytics and AI/ML, focused on building intelligent and data-driven solutions.
+              Computer Science undergraduate deeply interested in AI, Data, and Machine Learning. Throughout my college years, I’ve balanced academics and building tech with my passion for sports. I am highly adaptive, always finding my way through complex problems and diverse groups of people, and I listen carefully to build trust through my actions. Most importantly, I am someone who shows up. I believe that while everyone does the work, bringing the same focused mindset and intensity every single day is rare and that is exactly the standard I bring to the table.
             </p>
           </AnimatedSection>
 
