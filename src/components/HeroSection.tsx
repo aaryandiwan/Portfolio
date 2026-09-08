@@ -15,7 +15,7 @@ export function HeroSection() {
   };
 
   const openResume = () => {
-    window.open("/resumeeeee.pdf", "_blank");
+    window.open("/AARYANDIWANresume.pdf", "_blank");
   };
 
   return (
