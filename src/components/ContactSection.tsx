@@ -26,7 +26,7 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, href: "https://github.com/aaryandiwan", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/aaryandiwan/", label: "LinkedIn" },
-  { icon: Instagram, href: "https://www.instagram.com/ft.aaryannn", label: "Instagram" },
+  { icon: Instagram, href: "https://www.instagram.com/aaryandiwann", label: "Instagram" },
 ];
 
 export function ContactSection() {
