@@ -4,6 +4,24 @@ import { GlassCard } from "./ui/glass-card";
 import { AnimatedSection } from "./ui/animated-section";
 
 const projects = [
+    {
+    title: "RagQA",
+    description:
+      "A Retrieval-Augmented Generation (RAG) application using Google Gemini and Pinecone for interactive, document-grounded conversations.",
+    tags: ["Python", "Gemini API", "Pinecone", "Vector DB", "RAG"],
+    image: "/projects/RAG-QA.jpg",
+    githubUrl: "https://github.com/aaryandiwan/RAG-QA",
+  },  
+  
+  {
+    title: "FinRecon",
+    description:
+      "End-to-end Medallion Data Lakehouse pipeline using PySpark, Airflow, and Docker for automated financial reconciliation.",
+    tags: ["PySpark", "Airflow", "Docker", "SQL Server", "Streamlit"],
+    image: "/projects/FInRecon.jpg",
+    githubUrl: "https://github.com/aaryandiwan/FinRecon",
+  },
+  
   {
     title: "GestureIQ",
     description:
