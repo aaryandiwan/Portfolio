@@ -28,7 +28,7 @@ export function HeroSection() {
         {/* Welcome Text */}
         <AnimatedSection animation="fade-up">
           <p className="text-sm uppercase tracking-widest text-muted-foreground mb-4">
-            Welcome to my portfolio
+            HEY THERE !! Welcome to my Portfolio
           </p>
         </AnimatedSection>
 
@@ -43,6 +43,7 @@ export function HeroSection() {
         <AnimatedSection animation="fade-up" delay={200}>
           <p className="text-lg md:text-xl text-muted-foreground mb-10">
             AI & Data Engineer
+     AI • Data • ML • APIs • Automation
           </p>
         </AnimatedSection>
 
