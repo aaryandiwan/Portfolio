@@ -47,9 +47,7 @@ export function AboutSection() {
             
             {/* LEFT TEXT */}
             <AnimatedSection animation="fade-right" delay={200}>
-              <p className="text-foreground/75 mb-6 leading-relaxed">
-                My work focuses on transforming data into meaningful insights — from analyzing IPL datasets to building predictive models and data-driven dashboards.
-              </p>
+            
 
               <p className="text-foreground/75 mb-6 leading-relaxed">
                 I consider myself a continuous learner and a dedicated listener. Whether solving complex SQL queries or exploring emerging AI trends, I approach every challenge with focus and discipline.
