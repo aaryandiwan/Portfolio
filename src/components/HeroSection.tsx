@@ -48,7 +48,7 @@ export function HeroSection() {
       AI/ML <span className="mx-2">•</span>
       Data <span className="mx-2">•</span>
       APIs <span className="mx-2">•</span>
-      Automation <span className="mx-2">•</span>
+      Automation
     </p>
         </AnimatedSection>
 
