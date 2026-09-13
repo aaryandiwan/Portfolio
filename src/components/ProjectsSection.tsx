@@ -12,6 +12,13 @@ const projects = [
     image: "/projects/RAG-QA.jpg",
     githubUrl: "https://github.com/aaryandiwan/RAG-QA",
   },  
+  {
+    title: "EmotionSense",
+    description: "An NLP and Machine Learning based application that analyzes text to understand its context and extract underlying emotions.",
+    tags: ["NLP", "Machine Learning", "Python", "Data Analysis"],
+    image: "/projects/emotionsense.jpg", 
+    githubUrl: "https://github.com/aaryandiwan/EmotionSense",
+  },  
   
   {
     title: "FinRecon",
